@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Json Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+
+    <script>
+        /* Bu yöntem jquery ile fetch ile data.json ı getirmeye yarıyor 
+                                        $(document).ready(function() {
+                                            $.getJSON('data.json', function(data) {
+                                                console.log(data[0].name);
+                                            });
+                                        });*/
+
+        // Bu yöntem ise ajax ile data.json datasını console a yazdırmaya yarayacak
+
+        $(document).ready(function() {
+            var data;
+            $.ajax({
+                dataType: "json",
+                url: 'data.json',
+                data: data,
+                success: function(data) {
+                    return data;
+                }
+            });
+        });
+
+
+        for (var i = 0; i < data.length; i++) {
+            console.log(data[i].name + " is a " + data[i].race + " .");
+        }
+    </script>
+
+
+</body>
+
+</html>
