@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fetch Api Introduction</title>
+</head>
+
+<body>
+    <button id="getText">Get Text</button>
+    <button id="getUsers">Get Users</button>
+    <button id="getJsonApi">Get JSON Api</button>
+
+    <div id="output"></div>
+
+
+    <script>
+        document.getElementById("getText").addEventListener("click", getText);
+        document.getElementById("getUsers").addEventListener("click", getUsers);
+        document.getElementById("getJsonApi").addEventListener("click", getJsonApi);
+
+        function getJsonApi() {
+            fetch("https://jsonplaceholder.typicode.com/users")
+                .then(response => response.json())
+                .then(users => {
+                    let output = "<h3>Kayıtlı Kullanıcılar</h3>";
+                    users.forEach(function(user) {
+                        output += `
+                            <ul>
+                                <li>ID: ${user.id}</li>
+                                <li>Name: ${user.name}</li>
+                                <li>E-mail: ${user.email}</li>
+                            </ul>
+                        `;
+                    });
+                    document.getElementById("output").innerHTML += output;
+                })
+                .catch(err => console.log(err));
+        }
+
+
+        function getUsers() {
+            fetch("data.json")
+                .then((res) => res.json())
+                .then((data) => {
+                    let output = "<h4>Kullanıcılar</h4>";
+                    data.forEach(function(user) {
+                        output += `
+                    <ul>
+                        <li>ID: ${user.id}</li>
+                        <li>Name: ${user.name}</li>
+                        <li>Email: ${user.email}</li>
+                    </ul>
+                    `;
+                    });
+                    document.getElementById("output").innerHTML += output;
+                })
+        }
+
+
+        function getText() {
+            fetch("simple.txt")
+                .then((res) => res.text())
+                .then((data) => document.getElementById("output").innerHTML += data)
+                .catch((err) => console.log(err))
+        }
+    </script>
+</body>
+
+</html>

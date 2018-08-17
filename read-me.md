@@ -1,7 +1,0 @@
-Day - 1 / 6 Ağustos 2018
-    Jotform, dünyadaki en kolay online form oluşturma ve onları yönetmemize olanak tanıyan Türk startuptır. Merkezi San Francisco'da olan Jotform'un Ankara ve Urla'da da iki ayrı şubesi bulunmakta. Urla'da ki stajımın ilk gününde jotform'un stajyerlere jotform ürününü anlayıp kullanabilmemiz için dünyanın dört bir yanından talep ile gelmiş form oluşturma isteklerine yanıt verip onlar için online formlar oluşturdum. Talepler jotform'un kendi sitesine gelmekte. Form oluşturma taleplerin toplandığı online excel'de Ankara ve Urla'da ki ben ve benim gibi stajyerler ilk olarak nasıl bir form oluşturmamız gerektiğini anlayıp, modüller aracılığı ile kullanıcının istediği şekilde formu oluşturup yayına çıkıyoruz. İlk günüm bu şekilde geçti. 
-
-Day - 2 / 7 Ağustos 2018
-    Jotform'da ki ikinci günümde de dünyanın dört bir yanından gelen form taleplerini anlayarak müşterilere özel online platformumuzda formlar oluşturdum. Bizlere talepler jotform forumlarından gelmekte. Gelen tüm talepler online excel çalışma ortamına kaydediliyor. Ben ve benim gibi stajyer arkadaşlar bu taleplere uygun çözümler üretiyoruz. Stajımın ilk haftası bu şekilde geçiceğine dair bilgi aldım.
-
-Day -3 / 8 Ağustos 2018

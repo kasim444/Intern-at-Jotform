@@ -42,6 +42,7 @@ request.onload = function(){
             app.appendChild(card);
             card.appendChild(title);
             card.appendChild(description);
+            container.appendChild(card);
         });
     }else{
         const errorMessage = document.createElement('marquee');

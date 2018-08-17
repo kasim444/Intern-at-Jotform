@@ -1,0 +1,1 @@
+This is a check submission via qr code at JotForm.

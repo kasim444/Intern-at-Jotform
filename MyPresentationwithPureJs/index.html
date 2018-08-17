@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>QR Code Scanner Example</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="cont">
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <a href="http://jotform.com">
+                <img src="assets/img/logo-orange.png" alt="JotForm Logo" width="144px" height="50px">
+            </a>
+            <a href="https://www.jotform.com/myaccount/">
+                <img src="assets/img/podo.png" alt="Avatar at JotForm" class="rounded-circle border" width="50px" height="50px">
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="header mt-2">
+            <h3>Check the Submissions via
+                <img src="assets/img/qr-code-main.png" alt="Check submission in JotForm" width="44px" />
+            </h3>
+        </div>
+        <!-- Forms Area -->
+        <main>
+            <div id="output"></div>
+        </main>
+        <!-- Qr Code Reader Area -->
+        <article class="pad-2" id="qr-code-reader">
+            <section>
+                <div class="frm-grp txt-cntr" hidden>
+                    <label class="disp-blck">Choose camera:</label>
+                    <select id="webcameraChanger" onchange="cameraChange($(this).val());" class="frm-ctrl mar-btm-2"></select>
+                </div>
+                <!-- webcamera view component -->
+                <video id="webcameraPreview" playsinline autoplay></video>
+            </section>
+        </article>
+        <!-- Result is here -->
+        <div id="result"></div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://js.jotform.com/JotForm.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/adapter.min.js"></script>
+    <script type="text/javascript" src="assets/js/instascan.js"></script>
+    <script type="text/javascript" src="assets/js/QrCodeScanner.js"></script>
+    <script type="text/javascript">
+        //HTML video component for web camera
+        var videoComponent = $("#webcameraPreview");
+        //HTML select component for cameras change
+        var webcameraChanger = $("#webcameraChanger");
+        var options = {};
+        //init options for scanner
+        options = initVideoObjectOptions("webcameraPreview");
+        var cameraId = 0;
+
+        initScanner(options);
+
+        initAvaliableCameras(
+            webcameraChanger,
+            function() {
+                cameraId = parseInt(getSelectedCamera(webcameraChanger));
+            }
+        );
+
+        initCamera(cameraId);
+    </script>
+
+</body>
+
+</html>

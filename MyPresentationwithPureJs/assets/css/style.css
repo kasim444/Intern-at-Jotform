@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #fbfcff !important;
+    color: #49537b !important;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #18265b !important;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+#qr-code-reader {
+    display: none;
+}
+
+#result {
+    margin-top: 22px;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+}
+
+.body-text {
+    margin-bottom: 0;
+}
+
+
+/* Custom dropdown */
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    /* demo only */
+}
+
+.custom-dropdown select {
+    background-color: #007bff;
+    color: #fff;
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em;
+    border: 0;
+    margin: 0;
+    border-radius: 16px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: button;
+    /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+
+.custom-dropdown::after {
+    /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+}
+
+.custom-dropdown::before {
+    /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+    color: rgba(0, 0, 0, .3);
+}
+
+.custom-dropdown select[disabled]::after {
+    color: rgba(0, 0, 0, .1);
+}
+
+.custom-dropdown::before {
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 0 16px 16px 0;
+}
+
+.custom-dropdown::after {
+    color: rgba(0, 0, 0, .4);
+}
+
+#webcameraPreview {
+    width: 25%;
+}
+
+@media (max-width: 767.98px) {
+    #webcameraPreview {
+        width: 55%;
+    }
+}

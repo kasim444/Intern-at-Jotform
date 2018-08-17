@@ -1,2 +1,54 @@
-# Intern-at-Jotform
-My studies in my internship period.
+Bakmam Gereken Konular
+1 - self invoking function
+2 - closure javascript(javascript ya da front end alanında mülakatlarda sorulan soru)
+
+Staj Defteri İçin
+Day - 1 / 6 Ağustos 2018 (Pazartesi)
+
+    JotForm, dünyadaki en kolay online form oluşturma ve onları yönetmemize olanak tanıyan Türk startuptır. Merkezi San Francisco'da olan Jotform'un Ankara ve Urla'da da iki ayrı şubesi bulunmakta. Urla'da ki stajımın ilk gününde jotform'un stajyerlere jotform ürününü anlayıp kullanabilmemiz için dünyanın dört bir yanından talep ile gelmiş form oluşturma isteklerine yanıt verip onlar için online formlar oluşturdum. Talepler jotform'un kendi sitesine gelmekte. Form oluşturma taleplerin toplandığı online excel'de Ankara ve Urla'da ki ben ve benim gibi stajyerler ilk olarak nasıl bir form oluşturmamız gerektiğini anlayıp, modüller aracılığı ile kullanıcının istediği şekilde formu oluşturup yayına çıkıyoruz. İlk günüm bu şekilde geçti. 
+
+Day - 2 / 7 Ağustos 2018 (Salı)
+
+    JotForm'da ki ikinci günümde de dünyanın dört bir yanından gelen form taleplerini anlayarak müşterilere özel online platformumuzda formlar oluşturdum. Bizlere talepler jotform forumlarından gelmekte. Gelen tüm talepler online excel çalışma ortamına kaydediliyor. Ben ve benim gibi stajyer arkadaşlar bu taleplere uygun çözümler üretiyoruz. Stajımın ilk haftası bu şekilde geçiceğine dair bilgi aldım.
+
+Day -3 / 8 Ağustos 2018 (Çarşamba)
+
+    JotForm'da ki üçüncü günümde de müşterilerden gelen form taleplerine karşılık olarak formlar yaratıp, oluşturulan online formlar müşterilerle paylaşıldı. Ayrıca ilk hafta sadece müşterilerden gelen form oluşturma taleplere yanıt vereceğim için boş vakitlerimi iyi değerlendirmek adına udemy, udacity ve w3schools gibi online eğitim sitelerinden web programlama ile alakalı dersler izleyip bunlarla ilgili örnekler yaptım. Örnek vermek gerekirse 8 Ağustos günü, public bir API'dan veriler çekip bunu ön tarafta listelemeyi yaptım. Yaptığım api ile ilgili örneğe github'ımdaki https://github.com/kasim444/Intern-at-Jotform/tree/master/Day%203/API buradaki linkten erişilebilir. Ayrıca staj sürecince yaptığım tüm projelere ise https://github.com/kasim444/Intern-at-Jotform buradan ulaşılabilir.
+
+
+Day - 4 / 9 Ağustos 2018 (Perşembe)
+
+    JotForm'da ki dördüncü günümde de aynı şekilde müşterilerden gelen online form oluşturma taleplerini karşılamaya devam ettim. Ek olarak jotformda ki formu kaydedip sonra devam etme özelliği, kullanıcının koşuluna göre seçim yapıldıktan sonra sadece ilgili maile form yanıtlarını yönlendirme kriteri eklemeyi ve formların multi-language özelliğini kullanmayı öğrenip bunları https://form.jotform.com/82201952937964 şuradaki linkte uygulayarak öğrenmeye çalıştım. Bunun yanı sıra arta kalan boş zamanlarımda udacity'nin google web developerlar için olan kursundan javascript için object oriented eğitimine odaklandım ve çalıştım.
+
+Day - 5 / 10 Ağustos 2018 (Cuma)
+
+    JotForm'da haftanın son çalışma günü olan cuma günleri demo day yapılıyor. Ankara ve İzmir şubeleri o hafta ne yaptılar ise birbirlerine brifing veriyorlar. Aynı zamanda varsa stajyerler de staj süresince geliştirdikleri projeyi tüm herkese online ortamda aktarıyorlar. 2. Haftamdan itibaren bende kendi belirlediğim projeye başlamış olacağım. Bu nedenle ilk haftamın son gününü jotform için nasıl yararlı bir proje yaparım diye araştırmakla geçirdim. Jotform'un form support sayfasına gelen sorunları araştırıp en çok gelen talep ve sorunları belirledim. Araştırmalarım sonucunda en çok talep gören istek qr kod vasıtası ile formlara kayıt olan kişileri kontrol edebilmek istemeleriydi. Gelecek pazartesi belirlediğim projemi planlayıp kodlamaya başlayacağım.
+
+
+Day - 6 / 13 Ağustos 2018 (Pazartesi)
+
+    Jotform'da ki 2. haftamın ilk gününde belirlediğim projeyi planlamaya ve nasıl bir yol ile ilerlemem gerektiğini araştırmaya başladım. Şirketimiz front-end tarafında "React" ile back-end tarafında ise "Php" ile geliştirme yaptıklarından benim projeye başlamadan önce React tarafında biraz daha geliştirmem bunun yanı sıra Javascript'in güncel versiyonları es6 ve es7 ile gelmiş yenilikleri araştırıp çalışmam gerekecek. Ayrıca projemin genel hatlarını belirledim. JotForm için geliştirmek istediğim proje organizasyon yapan kişi, kurumlar için. Kısaca özetlemem gerekirse örnek olarak konser düzenleyen bir organizasyon ekibi mevcut. Konsere insanların kayıt olabilmeleri için JotForm üzerinden rahatlıkla online kayıt formunu doldurup dolduran formun sonucunda insanlara otomatik bir mail aracılığı ile konser girişi esnasında kullanabilecekleri bir qr kod gönderimi sağladım. Kişiler konsere giriş esnasında gişede bu qr kodu okutarak eğer datalarımız ile maile gönderdiğimiz qr kod eşleşiyorsa konsere rahatlıkla giriş sağlayabilmelerini aksi taktirde JotForm üzerinde ki kayıt formunu doldurmalarını rica ettireceğimiz bir web uygulaması planlıyorum. Projemin genel hatları bu şekilde.
+
+Day - 7 / 14 Ağustos 2018 (Salı)
+
+    Projemde ilk olarak çözmem gereken sorun, online formları dolduran kişilere etkinlik esnasında kullabilecekleri bir qr kod göndermek idi. Qr kod generete için online platformda ücretsiz bir hizmet sunan http://goqr.me/ sitesinin API'larinden yararlandım. JotForm üzerinden online formu dolduran kişilerin "Form ID" ve "Ad ve Soyad" bilgilerini goqr.me api datasına işleyerek bu sorunu aştım. Artık her katılımcı için uniqe bir qr elde edebiliyordum hem de qr kod içerisindeki bilgiler o kişini form id ve isim soyisimlerini saklıyordu ki etkinliğe giriş esnasında datalarımızla bilgileri karşılaştırıp gerçekten bu kişi formu doldurmuşmu doldurmamışmı diye. Katılımcılar formu doldurduktan sonra oluşturduğum qr kodu kişilere auto responsender metodu ile maili nasıl iletebileceğimi bulmak idi. Hali hazırda JotForm'da kişiler formu doldurduktan sonra mail gitmekte idi. Ben ise mail içeriğini sadeleştirip ilgili kişinin qr kod resmini yerleştirmeye çalıştım. Mail body'nin top kısmında kişinin isim soyismini, e-posta bilgilerini, seçtiği etkinliğin ismini  mail body'nin main kısmında ise "Sayın ... ..., etkinlik girişinde kullanacağınız qr kod aşağıdadır." yazısını hemen altında ise Api ile oluşturduğum qr kod resmini yerleştirdim. Artık  formu dolduran kişilere benim düzenlediğim sadece ve özel mail template iletilecek.
+
+
+Day - 8 / 15 Ağustos 2018 (Çarşamba)
+
+    Projemin geliştirme sürecinde artık mail içerisinde qr kod iletilebiliyor idi. Artık sırada organizasyon ekibi için web browser ortamında çalışacak bir qr code reader oluşturmam ve qr code reader aracılığı ile etkinliğe gelen kişilerin giriş esnasında bu qr code reader aracılığı etkinliğe giriş izni olup olmadığını teyip edebileceğim sayfayı geliştirmek var idi. Stajdaki günümün büyük çoğunu browser ortamında çalışabilen bir qr code reader kütüphanesi bulabilmekle geçti. Sonuç olarak Github üzerinde ki open source bir proje olan Instcan https://github.com/schmich/instascan)'dan yararlandım. Bu proje web browser ortamında çalışan qr code scan edebiliyor idi. Ardından test aşamasında geçtim fakat qr code reader'dan gelen resul değişkeni türkçe karakterleri desteklemediğini farkettim ve decode url fonksiyonu ile de bu sorunu aştım. Son olarak test aşamasında JotForm üzerindeki ilgili online formu doldurarak kendime bir mail yolladım. Telefonumdan qr code'u bilgisayarıma okutaracak qr code scanner'ın artık başarılı bir şekilde çalıştığını görerek projemin bu aşamasınıda sağlıklı şekilde tamamlayabildim.
+
+Day - 9 / 16 Ağustos 2018 (Perşembe)
+
+    Projem'deki auto responder maili içerisindeki qr kod göndermeyi, qr code scanner bileşeneni başarılı şekilde tamamladıktan sonra artık JotForm dataları ile qr code scannerdan gelen result ı eşleştirip katılımcıların etkinliğe giriş yapabilecekleri bir mesaj çıktısı ya da geçersiz izin gibi bir mesaj çıkartmam gerekmekte. İşe ilk olarak JotForm'un database işlemleri nasıl gerçekleşiyor diye kaynak kodlarını incelemekle başladım. JotForm front-end ve bac-end'i tamamen en yeni teknolojilerden yararlanıyorlar. Kısacası bir veri almak(get) ya da bir veriyi veritabanına kaydettirmek için ajax ya da fetch gibi kütüphanelerden yararlanmak yerine api'lar üzerinden get ve post işlemleri gerçekliştiriliyorlar. Üzerinde çalıştığım projede işime yarayacak apileri belirleyip nasıl çalıştıklarını anlamaya çalıştım. Ardından apilerden gelen data ları ön yüze basabilmek için güncel javascript versiyonu olan es6 ve es7'deki array manipülasyonları nasıl gerçekleşiyor ve bunları nasıl ekrana bastırtabileceğimizi araştırdım. Sonrasında JotForm api keyim ile üzerinde çalıştığım projemin kendi sayfasonda JotForm accountumdaki verileri çekebiliyor halen geldim. Oluşturduğum form'un id sinide api'ye belirterek artık istediğim verilere erişebiliyor hale geldim ve bunları artık dom'a yazdırabiliyordum.
+
+Day - 10 / 17 Ağustos 2018 (Cuma)
+
+    Üzerinde geliştirme yaptığım projemde qr kod gönderimi, qr code scan etme olayını ve jotform account'undaki gerçek dataları sayfama çekebiliyor hale gelmiş idim. Sıradaki aşamam ise qr code reader'dan gelen result'ı api'den gelen datalar ile karşılaştırıp buna göre bir sonuç çıkartmam gerekiyor idi.
+    İlk olarak bu check olayını üniversitemizdeki gördüğümüz döngüler aracılığı ile kolayca yapabileceğimi sanıyordum. Fakat javascript dilinde bir döngüden break komutu ile çıkma komutunun işe yaramadığını farkettim. Yapmak istediğim JotForm api'den gelen datayı(bir array i) foreach ile döndürüp, döngü içerisinde qr code scanner'dan gelen result sonucu ile karşılaştırıp 
+    eşleşme sağlandı ise döngüden çıkarak ekrana "Etkinliğe hoşgeldiniz, .... ..." basmak idi ya da arraydaki elemanlarla eşleşme sahğlanmadı ise geçersiz bir giriş olduğunu gösterecek "İlk olarak etkinliğe kayıt olmalısınız" gibisinden bir hata mesajı oluşturmak idi. Fakat javascript'te break komudu çalışmadığını öğrendim. Alternatif yollar için stackoverflow'da araştırmalarımın sonucunda foreach metodu yerine some metodu ile benzer bir işlemi yapabileceğimizi keşfettim. Ve günün sonunda artık hiç bir görsel güzelliği olmayan fakat işlevseliği ile çalışan bir projem çalışıyor halde idi.
+
+
+Day - 11 /  Ağustos 2018
+
+    Projem single page bir application olduğundan ötürü tüm bileşenler aynı anda doma yüklenmekte. Fakat projeyi yayına almadan önce işlemlerin sırası ile gerçekleşmesi gerekmekte. Yani bir organizasyon yetkilisi bu sayfaya geldiği anda ilk olarak ilgili formu seçmeli. Ardından karşısına o etkinlik için katılımcıları kontrol etme amaçlı qr code reader ekranı gelmeli. Katılımcılar organizasyon yetkilisine mailine gelen qr kodu gösterdiğinde qr code reader result'ına göre ekrana "Etkinliğe hoşgeldiniz, Kasim ŞEN. İyi eğlenceler." ya da "Bu etkinlliğe giriş için izniniz bulunmamakta. Lütfen ilk olarak JotForm'daki kayıt formuna kayıt olunuz." gibisinden bir hata verdirtmeliyim.
