@@ -1,6 +1,9 @@
 Bakmam Gereken Konular
-1 - self invoking function
-2 - closure javascript(javascript ya da front end alanında mülakatlarda sorulan soru)
+  <ol>
+    <li>self invoking function</li>
+    <li>closure javascript(javascript ya da front end alanında mülakatlarda sorulan soru)</li>
+  </ol>
+
 
 Staj Defteri İçin
 Day - 1 / 6 Ağustos 2018 (Pazartesi)
@@ -49,6 +52,18 @@ Day - 10 / 17 Ağustos 2018 (Cuma)
     eşleşme sağlandı ise döngüden çıkarak ekrana "Etkinliğe hoşgeldiniz, .... ..." basmak idi ya da arraydaki elemanlarla eşleşme sahğlanmadı ise geçersiz bir giriş olduğunu gösterecek "İlk olarak etkinliğe kayıt olmalısınız" gibisinden bir hata mesajı oluşturmak idi. Fakat javascript'te break komudu çalışmadığını öğrendim. Alternatif yollar için stackoverflow'da araştırmalarımın sonucunda foreach metodu yerine some metodu ile benzer bir işlemi yapabileceğimizi keşfettim. Ve günün sonunda artık hiç bir görsel güzelliği olmayan fakat işlevseliği ile çalışan bir projem çalışıyor halde idi.
 
 
-Day - 11 /  Ağustos 2018
+Day - 11 / 27 Ağustos 2018 (Pazartesi)
 
-    Projem single page bir application olduğundan ötürü tüm bileşenler aynı anda doma yüklenmekte. Fakat projeyi yayına almadan önce işlemlerin sırası ile gerçekleşmesi gerekmekte. Yani bir organizasyon yetkilisi bu sayfaya geldiği anda ilk olarak ilgili formu seçmeli. Ardından karşısına o etkinlik için katılımcıları kontrol etme amaçlı qr code reader ekranı gelmeli. Katılımcılar organizasyon yetkilisine mailine gelen qr kodu gösterdiğinde qr code reader result'ına göre ekrana "Etkinliğe hoşgeldiniz, Kasim ŞEN. İyi eğlenceler." ya da "Bu etkinlliğe giriş için izniniz bulunmamakta. Lütfen ilk olarak JotForm'daki kayıt formuna kayıt olunuz." gibisinden bir hata verdirtmeliyim.
+    Projem single page bir application olduğundan ötürü tüm bileşenler aynı anda doma yüklenmekte. Fakat projeyi yayına almadan önce işlemlerin sırası ile gerçekleşmesi gerekmekte. Yani bir organizasyon yetkilisi bu sayfaya geldiği anda ilk olarak ilgili formu seçmeli. Ardından karşısına o etkinlik için katılımcıları kontrol etme amaçlı qr code reader ekranı gelmeli. Katılımcılar organizasyon yetkilisine mailine gelen qr kodu gösterdiğinde qr code reader result'ına göre ekrana "Etkinliğe hoşgeldiniz, Kasim ŞEN. İyi eğlenceler." ya da "Bu etkinlliğe giriş için izniniz bulunmamakta." gibisinden bir hata verdirtmeliyim. Projeme görsellik katmak açısında Bootstrap adlı kütüphaneden yararlandım. Projemi JotForm'da kullanacağım için logosu ve renk paletine göre projemde de renkleri uyumla hale getirdim. Ardından tek seferde doma yüklenen projemi aşamalı olarak sırası ile çalıştırmak için fonksiyonları düzenledim. Artık ilk olarak JotForm API ile bağlanılacak sayfa gelmekte ardından account'undaki formlar listelenmekte sonrasında ise qr code reader ekranı gelmekteydi. Bu da kullanıcı deneyimini daha iyi getirmiş olacak idi.
+
+Day - 12 / 28 Ağustos 2018 (Salı)
+
+    Projemi pure javascript,html ve css yardımı ile tamamlamış bulunmaktaydım. Fakat şirketimiz react kütüphanesinden yararlanarak geliştiriliyordu. Bu nedenle bende projemi react hali ile sunumumu yapmak istediğim için işe React öğrenmek ile başladım. Bugün react'in felsefesini öğrenmeye çalışarak,componentların işleyişini inceleyerek, es6 ile gelen class ve modül sistemlerini inceleyerek geçirdim. React, Facebook'un geliştirdiği sadece kullanıcı arayüzü için kullanılmakta olan günümüzde ki en yaygın kullanılan frameworklerden bir tanesidir. DOM'da herhangi bir güncelleme biraz pahalıya patlamakta. React ise bunun yerine Virtual DOM denilen sanal bir DOM yaratıp değişikleri hesaplayıp sadece değişen yerleri tekrardan render etmemize olanak sağlayan müthiş bir kütüphanedir. Global olarak bir çok firma front-end tarafında react kütüphanesinden yararlanmakta.
+
+Day - 13 / 29 Ağustos 2018 (Çarşamba)
+
+    Güne React'te componentları iyice kavrayabilmek için basit bir sayaç uygulaması yaparak başladım. İlgili projeye https://github.com/kasim444/MyStudiesAboutReact/tree/master/Counter buradaki github sayfamdan ulaşılabilir. Ardından ise javascript'in es6 ile gelmiş olan class ve module'lerin nasıl çalıştığını, syntaxlarını inceleyerek devam ettim. Farklı js(module) dosyaları ile birlikte componentların birlikte nasıl çalıştıklarını ve react render metodunun altında html yazabilmemize olanak tanıyan JSX kavramını anlamaya çalışarak günümü sonlandırdım.
+
+Day - 14 / 31 Ağustos 2018 (Cuma)
+
+    Güne React'te componentlarda kullanılan props ve state kavramlarını incelemekle başladım. Props, componenttaki değişmeyen(sabit) parametleri tuttuğumuz bir metottur. State ise ilgili componentteki değişecek parametleri tuttuğumuz metot oluyor. React'te Props ve stateleri daha iyi kavrayabilmek için telefon rehberi uygulaması geliştirdim. İlgili projeye ttps://github.com/kasim444/MyStudiesAboutReact/tree/master/PhoneBook/my-app buradan ulaşmak mümkün. Bilgilerimi daha iyi oturtmak adına yrıca birde elma fiyatını hesaplattırdığım bir başka proje daha geliştirdim. İlgili projeye https://github.com/kasim444/MyStudiesAboutReact/tree/master/AmountApple/my-app buradan ulaşmak mümkün. React'te ayrıca lifecycle denilen bir hayat döngüsü bulunmaktadır. Kısaca lifecycle, bir component'in DOM'a mount edilmesi ya da unmount edilmesi gerektiği anda gerçekleştirebileceğimiz metotlardır. Günümü lifecycle'daki metotları inceleyerek sonlandırdım.

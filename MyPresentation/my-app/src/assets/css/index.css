@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Inconsolata|Pacifico');
+html {
+    font-family: 'PT+Serif', serif !important;
+}
+
+body {
+    font-family: 'PT+Serif', serif !important;
+    /*background: #69a9ff !important;*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-family: 'PT Serif', serif !important;
+    color: #2b9499 !important;
+}
+
+h4 {
+    color: #ff4400 !important;
+}
+
+p {
+    font-family: 'Pacifico', serif !important;
+    color: #ff5722;
+}
+
+#qr-code-reader {
+    display: none;
+}
+
+#result {
+    margin-top: 22px;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+}
+
+.body-text {
+    margin-bottom: 0;
+}
+
+
+/* Custom dropdown */
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    /* demo only */
+}
+
+.custom-dropdown select {
+    background-color: #2ab2b9;
+    background-image: linear-gradient(315deg, #c0f8fc 0%, #2b9499 66%);
+    color: #cef8fa;
+    font-size: inherit;
+    padding: .1em;
+    padding-right: 2.5em;
+    border: 0;
+    margin: 0;
+    border-radius: 16px;
+    text-indent: 16px;
+    text-overflow: '';
+    -webkit-appearance: button;
+    /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+}
+
+.custom-dropdown::after {
+    /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%;
+    margin-top: -.5em;
+}
+
+.custom-dropdown::before {
+    /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+    color: rgba(0, 0, 0, .3);
+}
+
+.custom-dropdown select[disabled]::after {
+    color: rgba(0, 0, 0, .1);
+}
+
+.custom-dropdown::before {
+    background-color: rgba(0, 0, 0, .15);
+    border-radius: 0 16px 16px 0;
+}
+
+.custom-dropdown::after {
+    color: rgba(0, 0, 0, .4);
+}
+
+#webcameraPreview {
+    width: 25%;
+}
+
+.circle-container {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    overflow: hidden;
+}
+
+.circle-container .circle-content {
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    background-image: url('../img/mascot_my_forms.png');
+    background-size: contain;
+    background-color: #2b9499;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+}
+
+.circle-container .animated-block {
+    background-color: #ff4400;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    z-index: 1;
+    transform-origin: 100% 100%;
+    transform: rotate(0deg);
+    animation-name: rotationLoader;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.circle-container .animated-block.first {
+    animation-delay: 0s;
+}
+
+.circle-container .animated-block.second {
+    animation-delay: 0.14s;
+}
+
+@keyframes rotationLoader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 767.98px) {
+    #webcameraPreview {
+        width: 55%;
+    }
+}
